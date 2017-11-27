@@ -7,13 +7,8 @@
 <script>
 
 function f1() {
-    var person = prompt("Please enter your name", "");
-
-    if (person == null || person == "") {
-        txt = "User cancelled the prompt.";
-    } else {
-        txt = "Hello " + person + "! How are you today?";
-    }
+    var person = window.prompt("Please enter your name", "");
+    console.log(person);
 
 }
 
