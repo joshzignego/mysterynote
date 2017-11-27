@@ -4,6 +4,22 @@
 <title>Homepage</title>
 <link rel="stylesheet" href="Homepage.css">
 <meta charset="UTF-8">
+<script>
+
+function f1() {
+    var person = prompt("Please enter your name", "");
+
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+        txt = "Hello " + person + "! How are you today?";
+    }
+
+}
+
+
+
+</script>
 </head>
 
 
@@ -23,11 +39,8 @@
 <h1 class="banner">Mystery Note</h1>
 <p>Read and write anonymous notes.</p>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+<input id="clickMe" type="button" value="clickme" onclick="f1();" />
 
-<p id="demo"></p>
 
 <!--
 <hr>
@@ -39,11 +52,7 @@ Check out this sick pic of me <del>&</del> <small>and</small> <mark>Barry O</mar
 
 <img src="swag.jpg" alt="Me and Barry O chilling" style="width:500px;height:600px;">
 -->
-<button type="button"
-onclick="document.getElementById('namePrompt')">
-Click me for name propmt..</button>
 
-<script id=namePrompt src="script1.js"></script>
 <!--<script src="script2.js"></script>-->
 
 
