@@ -4,7 +4,7 @@
 <title>Homepage</title>
 <link rel="stylesheet" href="Homepage.css">
 <meta charset="UTF-8">
-<script>
+<!-- <script>
 
 function f1() {
     var person = window.prompt("Please enter your name", "");
@@ -14,7 +14,14 @@ function f1() {
 
 
 
-</script>
+</script>-->
+
+
+
+
+
+
+
 </head>
 
 
@@ -34,8 +41,23 @@ function f1() {
 <h1 class="banner">Mystery Note</h1>
 <p>Read and write anonymous notes.</p>
 
+
+
 <input id="clickMe" type="button" value="clickme" onclick="f1();" />
 
+
+<form action="save-to-log.php" method="POST">
+  <fieldset>
+    <legend>Add to log</legend>
+    <p>
+      Message:
+      <textarea name="message"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="SAVE" />
+    </p>
+  </fieldset>
+</form>
 
 <!--
 <hr>
