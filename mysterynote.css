@@ -3,11 +3,9 @@
 body {
     /*background-color: powderblue;*/
 }
+
 .header {
-    position: fixed;
-    top: 0; left:0; right: 0;
     display: block;
-    margin-top: 0;
     background-color: gray;
     height: 5%;
     width: 100%;
