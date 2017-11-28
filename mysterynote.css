@@ -19,16 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
-/*
-body {
-    margin: 0px;
-    padding: 0px;
-}
-*/
-
 header {
-    margin: 0;
     background-color: #2b2b2b;
     height: 10%;
     width: 100%;
