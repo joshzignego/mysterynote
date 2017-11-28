@@ -1,3 +1,4 @@
+/*
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,7 +19,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers *
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -41,7 +42,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*/
 /*
 html, body, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -61,13 +62,16 @@ figure, figcaption, footer, header {
 	vertical-align: baseline;
 }
 */
-header {
-    background-color: #2b2b2b;
-    height: 10%;
-    width: 100%;
+
+body, h1  {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
+  background-color: #2b2b2b;
+  height: 10%;
+  width: 100%;
     color: #ffffff;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 2.5em;
