@@ -63,9 +63,9 @@ figure, figcaption, footer, header {
 }
 */
 html, body, header, h1 {
-    margin = 0;
-    border = 0;
-    padding = 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 header {
