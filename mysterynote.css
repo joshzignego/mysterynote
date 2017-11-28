@@ -3,6 +3,7 @@ body {
 }
 header {
     display: block;
+    margin-top: 0;
     background-color: gray;
     height: 5%;
     width: 100%;
