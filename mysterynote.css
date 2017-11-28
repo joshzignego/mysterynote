@@ -1,4 +1,4 @@
-html, body, h1, header {
+html, body, h1, p, footer, header {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -13,7 +13,7 @@ header {
     width: 100%;
 }
 
-h1 { /*PROBLEM WAS MARGIN HERE!*/
+h1 {
     color: #ffffff;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 2.5em;
