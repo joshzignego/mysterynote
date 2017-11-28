@@ -62,8 +62,8 @@ figure, figcaption, footer, header {
 	vertical-align: baseline;
 }
 */
-/* no html, h1*/
-body, header {
+/* no h1*/
+html, body, header {
     margin = 0;
     padding = 0;
 }
