@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Homepage</title>
-<link rel="stylesheet" href="Homepage.css">
-<meta charset="UTF-8">
-<!-- <script>
+    <title>Mystery Note - anonymous message sharing</title>
+    <link rel="stylesheet" href="homepage.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Read or write anonymous messages">
+    <meta name="keywords" content="anonymous, message, sharing, mystery, note, josh zignego">
+    <meta name="author" content="Joshua P. Zignego">
+    <!-- <script>
 
-function f1() {
-    var person = window.prompt("Please enter your name", "");
-    console.log(person);
+    function f1() {
+        var person = window.prompt("Please enter your name", "");
+        console.log(person);
 
-}
+    }
 
 
 
-</script>-->
+    </script>-->
 
 
 
@@ -23,17 +26,17 @@ function f1() {
 
 
 </head>
-
+<body>
 
 
 
 
 <style>
-.banner {
-    background-color: tomato;
-    color: white;
-    padding: 10px;
-}
+    .banner {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+    }
 </style>
 
 <!-- What's displayed! -->
@@ -46,17 +49,17 @@ function f1() {
 <input id="clickMe" type="button" value="clickme" onclick="f1();" />
 
 
-<form action="save-to-log.php" method="POST">
-  <fieldset>
-    <legend>Add to log</legend>
-    <p>
-      Message:
-      <textarea name="message"></textarea>
-    </p>
-    <p>
-      <input type="submit" value="SAVE" />
-    </p>
-  </fieldset>
+<form action="/save-to-log.php" method="POST">
+    <fieldset>
+        <legend>Add to log</legend>
+        <p>
+            Message:
+            <textarea name="message"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="SAVE" />
+        </p>
+    </fieldset>
 </form>
 
 <!--
