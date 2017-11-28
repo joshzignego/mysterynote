@@ -2,9 +2,10 @@ body {
     /*background-color: powderblue;*/
 }
 h1 {
-    /*top right bottom left*/
-    padding: 25px 50px 75px 100px;
+    /*top /bottom, right/left*/
+    padding: 50px 100px;
     font-family: "Arial", Helvetica, sans-serif;
+    color: gray;
     text-align: center;
 }
 p {
