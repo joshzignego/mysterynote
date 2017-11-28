@@ -1,11 +1,10 @@
 body {
     /*background-color: powderblue;*/
 }
-h1 {
-    background-color:Tomato;
+header {
+    background-color:gray;
     height: 5%;
     width: 100%;
-    margin: 25px;
     font-family: "Arial", Helvetica, sans-serif;
     text-align: center;
 }
