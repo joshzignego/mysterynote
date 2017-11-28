@@ -3,10 +3,8 @@ body {
 }
 h1 {
     background-color:Tomato;
-    width: 300px;
-    border: 25px solid green;
-    /*top /bottom, right/left*/
-    padding: 25px;
+    height: 5%;
+    width: 100%;
     margin: 25px;
     font-family: "Arial", Helvetica, sans-serif;
     text-align: center;
