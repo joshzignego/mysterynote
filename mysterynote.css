@@ -62,10 +62,10 @@ figure, figcaption, footer, header {
 	vertical-align: baseline;
 }
 */
-/* no h1*/
-html, body, header {
-    margin = 0;
-    padding = 0;
+html, body, header, h1 {
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 header {
