@@ -1,85 +1,102 @@
-/*
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers *
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-*/
-/*
-html, body, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-*/
-html, body, header, h1 {
+html, body, header, h1, p, section, div, span, form {
     margin: 0;
     border: 0;
     padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    height: 100%;
+    /*border: 1px solid red;*/
+}
+
+section {
+    height: 87%;
 }
 
 header {
-    background-color: #2b2b2b;
+    background-color: rgba(48, 48, 48, 1);
     height: 10%;
+    margin-bottom: 0.5%;
     width: 100%;
 }
 
-h1 {
-    color: #ffffff;
+#homeButton {
+    color: rgba(255, 255, 255, 1);
+    width: 20%;
+    margin: auto;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 2.5em;
     text-align: center;
+    cursor:pointer;
+    padding: 0;
 }
-p {
-    color: red;
+
+div.column {
+    cursor: pointer;
+    background-color: rgba(0, 229, 183, 1);
+    text-align: center;
+    font-size: 3em;
+    width: 49.0%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+span {
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+}
+
+#readAMessage {
+    margin: 0 0.2% 0.5% 0.5%;
+    float: left;
+}
+
+#writeAMessage {
+    margin: 0 0.5% 0.5% 0.2%;
+    float: right;
+}
+
+div.writeForm {
+    display: none;
+    height: 87%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0% 2.5% 1% 2.5%;
+    width: 95%;
+    height: 80%;
+    font-size: 2em;
+}
+
+#submitNoteButton{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 229, 183, 1);
+    color: black;
+    padding: 0.5% 1.2%;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#submitNoteButton:hover {
+    background-color: rgba(0, 201, 161, 0.5);
+}
+
+#submitNoteButton:active {
+    position:relative;
+    top:1px;
+}
+
+#successfulSubmission {
+    display: none;
+    height: 87%;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }

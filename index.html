@@ -1,43 +1,52 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
 <head>
     <title>Mystery Note - anonymous message sharing</title>
-    <link rel="stylesheet" type = "text/css" href="mysterynote.css">
+    <link rel="stylesheet" type = "text/css" href="/mysterynote.css">
 
     <meta charset="UTF-8">
     <meta name="description" content="Read or write anonymous messages">
     <meta name="keywords" content="anonymous, message, sharing, mystery, note, josh zignego">
     <meta name="author" content="Joshua P. Zignego">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="/column.js" defer></script>
+    <script type="text/javascript" src="/home.js" defer></script>
+    <script type="text/javascript" src="/successfulSubmission.js" defer></script>
 </head>
 
 <body>
 
 <header>
-    <h1>Mystery Note all with :</h1>
+    <div id="homeButton" onclick="returnHome()" onmouseover="mouseOverHome(this)"
+         onmouseout="mouseOutHome(this)"/>
+        <h1>Mystery Note</h1>
+    </div>
 </header>
 
+<section id="introColumns">
+    <div id="readAMessage" class = "column" onmouseover="mouseOver(this)"
+         onmouseout="mouseOut(this)" onclick="readClick(this)">
+        <span>Read a message</span>
+    </div>
 
+    <div id="writeAMessage" class = "column" onmouseover="mouseOver(this)"
+         onmouseout="mouseOut(this)" onclick="writeClick(this.parentElement, document)">
+        <span id="writeAMessageString">Write a message</span>
+    </div>
+</section>
 
+<div id="writeForm" class="writeForm">
+    <form action="/save-to-log.php" method="POST" onsubmit="successfulSubmission(document)">
+        <textarea name="message" placeholder="Enter your anonymous message here!"></textarea>
+        <input id="submitNoteButton" type="submit" value="Submit mystery note"/>
+    </form>
+</div>
 
-
-<!--<input id="clickMe" type="button" value="clickme" onclick="f1();" />-->
-
-<!--
-<form action="/save-to-log.php" method="POST" target="_blank">
-    <fieldset>
-        <legend>Add to log</legend>
-        <p>
-            Message:
-            <textarea name="message"></textarea>
-        </p>
-        <p>
-            <input type="submit" value="SAVE" />
-        </p>
-    </fieldset>
-</form>
--->
-<!--<script src="script2.js"></script>-->
+<div id="successfulSubmission">
+    <h1>Your mystery note has been successfully submitted!</h1>
+</div>
 
 </body>
 </html>
