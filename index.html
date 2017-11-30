@@ -13,7 +13,7 @@
 
     <script type="text/javascript" src="/column.js" defer></script>
     <script type="text/javascript" src="/home.js" defer></script>
-    <script type="text/javascript" src="/successfulSubmission.js" defer></script>
+    <script src="jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
@@ -38,14 +38,18 @@
 </section>
 
 <div id="writeForm" class="writeForm">
-    <form action="/save-to-log.php" method="POST" onsubmit="successfulSubmission(document)">
+    <form action="/save-to-log.php" method="POST">
         <textarea name="message" placeholder="Enter your anonymous message here!"></textarea>
         <input id="submitNoteButton" type="submit" value="Submit mystery note"/>
     </form>
 </div>
 
+<div id="readBox" class="readBox">
+    <h1>Secret messages here!</h1>
+</div>
+
 <div id="successfulSubmission">
-    <h1>Your mystery note has been successfully submitted!</h1>
+    <h1 id="messageString">Your mystery note has been successfully submitted!</h1>
 </div>
 
 </body>

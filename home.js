@@ -2,6 +2,10 @@ function returnHome() {
     document.location.href="/";
 }
 
+function goNew() {
+    document.location.href="/success.html";
+}
+
 function mouseOverHome(home) {
     home.style.backgroundColor = "rgba(61, 61, 61, 1)";
 }
