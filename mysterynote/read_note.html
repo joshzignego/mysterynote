@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>Mystery Note - anonymous message sharing</title>
+    <link rel="stylesheet" type = "text/css" href="/mysterynote.css">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Read or write anonymous messages">
+    <meta name="keywords" content="anonymous, message, sharing, mystery, note, josh zignego">
+    <meta name="author" content="Joshua P. Zignego">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="/getNote.js"> </script>
+    <script type="text/javascript" src="/home.js" defer></script>
+    <script type="text/javascript" src="/column.js" defer></script>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+
+<header>
+    <div id="homeButton" onclick="returnHome()" onmouseover="mouseOverHome(this)"
+         onmouseout="mouseOutHome(this)"/>
+    <h1>Mystery Note</h1>
+    </div>
+</header>
+
+<div id="leftSide">
+    <div id="prevMessage" onclick="getPrevNote(document)" onmouseover="mouseOverPrevMessage(this)"
+         onmouseout="mouseOutPrevMessage(this)"/>
+        <div id="readPrev"></div>
+        <span>Last Note</span>
+    </div>
+
+    <div id="goToWriteLeft" onclick="writeClick(document)" onmouseover="mouseOverWriteNow(this)"
+         onmouseout="mouseOutWriteNow(this)"/>
+        <div id="writeNowLeft"></div>
+        <span>Write Note</span>
+    </div>
+</div>
+
+<div id="readBox">
+    <pre id="noteString"></pre>
+    <p id="alertString"></p>
+</div>
+
+<div id="rightSide">
+    <div id="nextMessage" onclick="getNextNote(document)" onmouseover="mouseOverNextMessage(this)"
+         onmouseout="mouseOutNextMessage(this)"/>
+        <div id="readNext"></div>
+        <span>Next Note</span>
+    </div>
+
+    <div id="goToWriteRight" onclick="writeClick(document)" onmouseover="mouseOverWriteNow(this)"
+         onmouseout="mouseOutWriteNow(this)"/>
+        <div id="writeNowRight"></div>
+        <span>Write Note</span>
+    </div>
+</div>
+
+</body>
+</html>
