@@ -14,7 +14,6 @@
     <script type="text/javascript" src="/column.js" defer></script>
     <script type="text/javascript" src="/home.js" defer></script>
     <script src="jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a234a2de74e710012d2fedf&product=inline-share-buttons"></script>
 </head>
 
 <body>
@@ -26,19 +25,12 @@
     </div>
 </header>
 
-<section id="introColumns">
-    <div id="readAMessage" class = "column" onmouseover="mouseOver(this)"
-         onmouseout="mouseOut(this)" onclick="readClick(this.parentElement, document)">
-        <span>Read a message</span>
-    </div>
-
-    <div id="writeAMessage" class = "column" onmouseover="mouseOver(this)"
-         onmouseout="mouseOut(this)" onclick="writeClick(this.parentElement, document)">
-        <span id="writeAMessageString">Write a message</span>
-    </div>
-</section>
-
-<div class="sharethis-inline-share-buttons"></div>
+<div id="writeForm" class="writeForm" style="display: block">
+    <form action="/save-to-log.php" method="POST">
+        <textarea name="message" placeholder="Enter your anonymous message here!"></textarea>
+        <input id="submitNoteButton" type="submit" value="Submit mystery note"/>
+    </form>
+</div>
 
 </body>
 </html>

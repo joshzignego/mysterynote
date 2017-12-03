@@ -103,9 +103,9 @@ textarea {
 
 #readBox {
     display: none;
+    background-color: orange;
     height: 87%;
     width: 100%;
-    text-align: center;
     font-size: 3em;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }

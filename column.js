@@ -7,14 +7,9 @@ function mouseOut(col) {
 }
 
 function writeClick(introColumns, document) {
-  var child = introColumns;
-  var parent = introColumns.parentElement;
-  parent.removeChild(child);
-
-  var form = document.getElementById("writeForm");
-  form.style.display = "block";
+  document.location.href="/write_note.html";
 }
 
-function readClick(col) {
-    col.innerHTML = "<span>Read hidden message</span>";
+function readClick(introColumns, document) {
+  document.location.href="/read_note.html";
 }
