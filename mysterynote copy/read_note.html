@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Mystery Note - anonymous message sharing</title>
-    <link rel="stylesheet" type = "text/css" href="/mysterynote.css">
+    <link rel="stylesheet" type = "text/css" href="/style.css">
 
     <meta charset="UTF-8">
     <meta name="description" content="Read or write anonymous messages">
@@ -11,8 +11,7 @@
     <meta name="author" content="Joshua P. Zignego">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script type="text/javascript" src="/getNote.js"> </script>
-    <script type="text/javascript" src="/home.js" defer></script>
+    <script type="text/javascript" src="/getNotes.js"> </script>
     <script type="text/javascript" src="/column.js" defer></script>
     <script src="jquery-3.2.1.min.js"></script>
 </head>
@@ -30,13 +29,13 @@
     <div id="prevMessage" onclick="getPrevNote(document)" onmouseover="mouseOverPrevMessage(this)"
          onmouseout="mouseOutPrevMessage(this)"/>
         <div id="readPrev"></div>
-        <span>Last Note</span>
+        <span class = "normal">Last Note</span>
     </div>
 
     <div id="goToWriteLeft" onclick="writeClick(document)" onmouseover="mouseOverWriteNow(this)"
          onmouseout="mouseOutWriteNow(this)"/>
         <div id="writeNowLeft"></div>
-        <span>Write Note</span>
+        <span class = "normal">Write Note</span>
     </div>
 </div>
 
@@ -49,13 +48,13 @@
     <div id="nextMessage" onclick="getNextNote(document)" onmouseover="mouseOverNextMessage(this)"
          onmouseout="mouseOutNextMessage(this)"/>
         <div id="readNext"></div>
-        <span>Next Note</span>
+        <span class = "normal">Next Note</span>
     </div>
 
     <div id="goToWriteRight" onclick="writeClick(document)" onmouseover="mouseOverWriteNow(this)"
          onmouseout="mouseOutWriteNow(this)"/>
         <div id="writeNowRight"></div>
-        <span>Write Note</span>
+        <span class = "normal">Write Note</span>
     </div>
 </div>
 

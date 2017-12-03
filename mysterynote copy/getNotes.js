@@ -15,8 +15,6 @@ window.onload = function() {
     };
 };
 
-document.on
-
 function escapeHtml(text) {
     var map = {
         '&': '&amp;',
@@ -85,7 +83,7 @@ function getPrevNote(document) {
 // handles the click event for link 1, sends the query
 function getMessages(document) {
     getRequest(
-        '/read-message.php', // URL for the PHP file
+        '/getNotes.php', // URL for the PHP file
         drawOutput,  // handle successful request
         drawError    // handle error
     );

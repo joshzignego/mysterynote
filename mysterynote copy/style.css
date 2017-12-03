@@ -1,16 +1,17 @@
 /*T R B L*/
-html, body, header, h1, p, section, div, span, form {
+html, body, header, footer, h1, p, section, div, span, a, form {
     margin: 0;
     border: 0;
     padding: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     vertical-align: baseline;
     height: 100%;
     /*border: 1px solid red;*/
 }
 
 section {
+    position: relative;
     height: 87%;
     margin: 0% 0% 1% 0%;
 }
@@ -25,16 +26,20 @@ header {
 #homeButton {
     color: rgba(255, 255, 255, 1);
     width: 20%;
+    position: relative;
+    height: 100%;
     margin: auto;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 2.5em;
     text-align: center;
     cursor:pointer;
     padding: 0;
 }
 
+#homeButton:hover {
+    opacity: 0.8;
+}
+
 div.column {
-    cursor: pointer;
     position: relative;
     text-align: center;
     font-size: 3em;
@@ -42,7 +47,7 @@ div.column {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-span {
+span.normal {
     position: relative;
     top: 25%;
     transform: translateY(-25%);
@@ -52,11 +57,28 @@ span {
     color : white;
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
     margin: 0 0.2% 0.5% 0.49%;
+    height: 100%;
     float: left;
 }
 
+
+#writeAMessage {
+    color : black;
+    height: 100%;
+    margin: 0 0.5% 0.5% 0.2%;
+    float: right;
+}
+
+#readAMessage:hover {
+    opacity: 0.8;
+}
+
+#writeAMessage:hover {
+    opacity: 0.8;
+}
+
 #readPicture {
-    background-image : url('/read.jpg');
+    background-image : url('/images/read.jpg');
     background-size: 100% auto;
     content : "";
     display: block;
@@ -68,14 +90,8 @@ span {
     z-index: -1;
 }
 
-#writeAMessage {
-    color : black;
-    margin: 0 0.5% 0.5% 0.2%;
-    float: right;
-}
-
 #writePicture {
-    background-image : url('/write.jpg');
+    background-image : url('/images/write.jpg');
     background-size: cover;
     content : "";
     display: block;
@@ -88,8 +104,34 @@ span {
     z-index: -1;
 }
 
-div.writeForm {
-    display: none;
+a {
+    width: 100%;
+}
+
+span.readPictureLinkSpan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+span.readPictureLinkSpan:hover {
+    cursor: pointer;
+}
+
+span.homeLinkSpan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#writeForm {
+    display: block;
     height: 87%;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
@@ -104,10 +146,18 @@ textarea {
     font-size: 2em;
 }
 
+#recaptchaForm {
+    display: inline-block;
+    float:left;
+    margin: 0% 0% 0% 25%;
+    padding: 0;
+}
+
 #submitNoteButton{
+    float: right;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    display: block;
-    margin: auto;
+    display: inline-block;
+    margin: 0.3% 25% 0% 0%;
     background-color: rgba(0, 229, 183, 1);
     color: black;
     padding: 0.5% 1.2%;
@@ -201,7 +251,7 @@ textarea {
 }
 
 #writeNowRight {
-    background-image : url('/write_now.jpg');
+    background-image : url('/images/writeFromRead.jpg');
     background-size: cover;
     content : "";
     position: absolute;
@@ -226,7 +276,7 @@ textarea {
 }
 
 #writeNowLeft {
-    background-image : url('/write_now.jpg');
+    background-image : url('/images/writeFromRead.jpg');
     background-size: cover;
     content : "";
     display: block;
@@ -240,7 +290,7 @@ textarea {
 }
 
 #readNext {
-    background-image : url('/read_next.jpg');
+    background-image : url('/images/readPrevOrNext.jpg');
     background-size: cover;
     content : "";
     display: block;
@@ -254,7 +304,7 @@ textarea {
 }
 
 #readPrev {
-    background-image : url('/read_next.jpg');
+    background-image : url('/images/readPrevOrNext.jpg');
     background-size: cover;
     content : "";
     display: block;
@@ -274,4 +324,24 @@ footer {
     background-color: cornsilk;
     display: block;
     text-align: center;
+}
+
+ul.share-buttons{
+    list-style: none;
+    padding: 1.2% 0% 0% 0%;
+}
+
+ul.share-buttons li{
+    display: inline;
+}
+
+ul.share-buttons .sr-only{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
