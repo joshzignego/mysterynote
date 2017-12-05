@@ -1,0 +1,403 @@
+html, body, header, footer, h1, p, div, span, a, form, pre {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    vertical-align: baseline;
+    height: 100%;
+    /*border: 1px solid red;*/
+}
+
+.noWrapH, .noWrapB {
+    white-space: nowrap;
+}
+
+#header {
+    background-color: rgb(48, 48, 48);
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 0.5%;
+    max-height: 10%;
+    min-height: 55px;
+    z-index: 2;
+    min-width: 500px;
+    margin-bottom: 0.6%;
+}
+
+.spacer {
+    height: 11%;
+    width: 100%;
+    max-height: 11%;
+    min-height: 55px;
+}
+
+.homeButton {
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5em;
+    width: 20%;
+    min-width: 300px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.homeButton:hover {
+    opacity: 0.8;
+}
+
+div.column {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    padding-top: 0.5%;
+    font-size: 3em;
+    width: 49.0%;
+    height: 88%;
+    min-width: 500px;
+    overflow: scroll;
+}
+
+span.normal {
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%);
+}
+
+span.read {
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+#readAMessage {
+    color: rgb(255, 255, 255);
+    margin: 0% 0.5% 0.5% 0.6%;
+    float: left;
+}
+
+#writeAMessage {
+    color: rgb(0, 0, 0);
+    margin: 0% 0% 0.5% 0.2%;
+}
+
+#readAMessage:hover .picture  {
+    opacity: 0.8;
+}
+
+#writeAMessage:hover .picture {
+    opacity: 0.7;
+}
+
+.picture {
+    content : "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#readPicture {
+    background-image : url('/images/read.jpg');
+    background-size: 100% auto;
+}
+
+#writePicture {
+    background-image : url('/images/write.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+
+a {
+    width: 100%;
+}
+
+span.pictureLinkSpan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+span.pictureLinkSpan:hover {
+    cursor: pointer;
+}
+
+.pictureLinkSpanInRead {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.pictureLinkSpanInRead {
+    cursor: pointer;
+}
+
+span.homeLinkSpan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#writeForm {
+    display: block;
+    position: relative;
+    padding-top: 1%;
+    height: 87%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    min-width: 1200px;
+    min-height: 500px;
+    overflow: auto;
+}
+
+textarea {
+    display: block;
+    margin: 0% 2.5% 1% 2.5%;
+    width: 95%;
+    height: 80%;
+    font-size: 2em;
+}
+
+#recaptchaForm {
+    position: relative;
+    display: inline-block;
+    float: left;
+    left: 26%;
+    height: 10%;
+}
+
+#submitNoteButton{
+    position: relative;
+    display: inline-block;
+    left: 5%;
+    background-color: rgb(247, 239, 222);
+    opacity: 0.5;
+    color: black;
+    padding: 1% 1.2%;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#submitNoteButton:hover {
+    background-color: rgba(247, 239, 222, 0.5);
+}
+
+#submitNoteButton:active {
+    position:relative;
+    top:1px;
+}
+
+#successfulSubmission {
+    display: block;
+    height: 9%;
+    width: 98%;
+    margin: 0.5% 1% 1% 1%;
+    background-color: rgb(247, 239, 222);
+    text-align: center;
+    font-size: 2.2em;
+    overflow: scroll;
+    min-width: 1000px;
+    min-height: 55px;
+}
+
+.readingWrapper {
+    position: relative;
+    height: 87%;
+    width: 97.99%;
+    margin: 0.5% 1% 1% 1%;
+    min-height: 500px;
+    min-width: 1000px;
+}
+
+#readBox {
+    margin:0 10% 0 10%;
+    background-color: rgb(247, 239, 222);
+    width: 78%;
+    font-size: 3em;
+    overflow: scroll;
+}
+
+#noteString {
+    margin: 0;
+    display: inline;
+    font-size: 1em;
+
+}
+
+.sideOfBox {
+    width: 10%;
+    position: relative;
+    text-align: center;
+    top: 0;
+}
+
+#leftSide {
+    float: left;
+    margin-right: 1%;
+}
+
+#rightSide {
+    float: right;
+}
+
+.noteLink {
+    margin-bottom: 1%;
+    font-size: 2.8em;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 78%;
+}
+
+.noteLink:hover .notePicture {
+    opacity: 0.7;
+}
+
+.notePicture {
+    background-image: url('/images/nextPage.jpg');
+    z-index: -1;
+    background-size: cover;
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 78%;
+    z-index: -1;
+}
+
+.writeLink {
+    margin: 1% 1% 1% 0%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    color: black;
+    text-align: center;
+    font-size: 1.8em;
+    width: 100%;
+    height: 20%;
+}
+
+.writeLink:hover .writeNowPicture {
+    opacity: 0.8;
+}
+
+.writeNowPicture {
+    background-image : url('/images/writeFromRead.jpg');
+    background-size: cover;
+    content : "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: absolute;
+    width: 100%;
+    height: 78%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    white-space:nowrap;
+    height: 30%;
+    font-size: 30%;
+    visibility: hidden;
+    width: 10px;
+    background-color: white;
+    color: black;
+    padding: 0;
+
+    /* Position the tooltip text */
+    position: relative;
+    left: -10%;
+    z-index: 0;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#rightTooltipText {
+    left: 0;
+}
+
+footer {
+    position: relative;
+    height: 10%;
+    min-width: 1010px;
+    min-height: 55px;
+    max-height: 10%;
+    width: 100%;
+    margin: 0%;
+    background-color: rgb(247, 239, 222);
+    display: block;
+    text-align: center;
+}
+
+#noWrapFooter {
+    white-space: nowrap;
+}
+
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+ul.share-buttons{
+    list-style: none;
+    width: 22%;
+    margin: 0% 39%;
+    border: 0;
+    padding: 0;
+    padding-top: 1%;
+    position: absolute;
+    text-align: center;
+}
+
+ul.share-buttons li{
+    display: inline;
+}
+
+ul.share-buttons .sr-only{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
