@@ -1,2 +1,0 @@
-# mysterynote
-mysterynote.website repository
