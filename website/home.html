@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
+<html class="noWrapH">
 <head>
     <title>Mystery Note - anonymous message sharing</title>
-    <link rel="stylesheet" type = "text/css" href="/style.css">
+    <link rel="stylesheet" type = "text/css" href="/website/style.css">
 
     <meta charset="UTF-8">
-    <meta name="description" content="Read or write anonymous messages">
+    <meta name="description" content="Read and write anonymous messages!">
     <meta name="keywords" content="anonymous, message, sharing, mystery, note, josh zignego">
     <meta name="author" content="Joshua P. Zignego">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script type="text/javascript" src="/getNotes.js"></script>
-    <script src="jquery-3.2.1.min.js"></script>
+    <script src="jquery-3.2.1.js"></script>
 </head>
 
-<body>
+<body class="noWrapB">
 
 <div id="header">
     <div class="homeButton">
@@ -25,45 +24,19 @@
 </div>
 <div class="spacer"></div>
 
-<div class="readingWrapper">
-    <div id="leftSide" class="sideOfBox">
-        <div id="prevMessage" class="noteLink" onclick="getPrevNote(document)">
-            <div id="readPrev" class="notePicture"></div>
-            <div class="tooltip">
-                <span class="tooltiptext">Read previous mystery note</span>
-            </div>
-            <span class = "read">Last Note</span>
-        </div>
-
-        <div id="goToWriteLeft"  class="writeLink">
-            <div id="writeNowLeft" class="writeNowPicture"></div>
-            <a href="/write_note.html"><span class="pictureLinkSpanInRead"></span></a>
-            <span class = "normal">Write Note</span>
-        </div>
-    </div>
-
-    <div id="rightSide" class="sideOfBox">
-        <div id="nextMessage"  class="noteLink" onclick="getNextNote(document)">
-            <div id="readNext" class="notePicture"></div>
-            <div class="tooltip">
-                <span id="rightTooltipText" class="tooltiptext">Read next mystery note</span>
-            </div>
-            <span class = "read">Next Note</span>
-        </div>
-
-        <div id="goToWriteRight"  class="writeLink">
-            <div id="writeNowRight" class="writeNowPicture"></div>
-            <a href="/write_note.html"><span class="pictureLinkSpanInRead"></span></a>
-            <span class = "normal">Write Note</span>
-        </div>
-    </div>
-
-    <div id="readBox">
-        <pre id="noteString"></pre>
-    </div>
+<div id="readAMessage" class = "column">
+    <div id="readPicture" class="picture"></div>
+    <a href="/website/read_note.htmlote.html"><span class="pictureLinkSpan"></span></a>
+    <span class = "normal">Read a message</span>
 </div>
 
-<footer id="noWrapFooter" class="site-footer">
+<div id="writeAMessage" class = "column">
+    <div id="writePicture" class="picture"></div>
+    <a href="/website/write_note.html"><span class="pictureLinkSpan"></span></a>
+    <span id="writeAMessageString" class = "normal">Write a message</span>
+</div>
+
+<footer id="footer" class="site-footer">
     <!--https://simplesharingbuttons.com-->
     <ul class="share-buttons">
         <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmysterynote.website&t=Mystery%20Note" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/flat_web_icon_set/black/Facebook.png" /></a></li>

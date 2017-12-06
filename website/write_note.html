@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Mystery Note - anonymous message sharing</title>
-    <link rel="stylesheet" type = "text/css" href="/style.css">
+    <link rel="stylesheet" type = "text/css" href="/website/style.css">
 
     <meta charset="UTF-8">
     <meta name="description" content="Read or write anonymous messages">
@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script type="text/javascript" src="/sendNote.js" defer></script>
+    <script type="text/javascript" src="/website/sendNote.js" defer></script>
     <script src="jquery-3.2.1.min.js"></script>
 </head>
 
@@ -27,7 +27,7 @@
 <div class="spacer"></div>
 
 <div id="writeForm" class="writeForm">
-    <form id="form" action="/sendNote.php" method="POST">
+    <form id="form" action="/website/sendNote.php" method="POST">
         <textarea maxlength="2000" id ='message' name="message" placeholder="Enter your anonymous message here!     Limit: 2000 characters"></textarea>
         <input id="submitNoteButton" type="submit" value="Submit mystery note"/>
         <div id="recaptchaForm" class="g-recaptcha" data-callback="captchaResponse" data-sitekey="6LfWZDsUAAAAAH7mwFhxXwYiqGLi9TUir33sA6k9"></div>

@@ -105,12 +105,12 @@ span.read {
 }
 
 #readPicture {
-    background-image : url('/images/read.jpg');
+    background-image : url('/website/images/read.jpg');
     background-size: 100% auto;
 }
 
 #writePicture {
-    background-image : url('/images/write.jpg');
+    background-image : url('/website/images/write.jpg');
     background-size: cover;
     opacity: 0.9;
 }
@@ -270,7 +270,7 @@ textarea {
 }
 
 .notePicture {
-    background-image: url('/images/nextPage.jpg');
+    background-image: url('/website/images/nextPage.jpg');
     z-index: -1;
     background-size: cover;
     content : "";
@@ -300,7 +300,7 @@ textarea {
 }
 
 .writeNowPicture {
-    background-image : url('/images/writeFromRead.jpg');
+    background-image : url('/website/images/writeFromRead.jpg');
     background-size: cover;
     content : "";
     position: absolute;
