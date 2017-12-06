@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17df698f-801b-40a0-9997-708a69387311" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/getNotes.js" afterPath="$PROJECT_DIR$/website/getNotes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/getNotes.php" afterPath="$PROJECT_DIR$/website/getNotes.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/website/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/License for Flat Web Icon Set.rtf" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/License for Flat Web Icon Set.rtf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Email.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Email.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Facebook.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Facebook.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Google+.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Google+.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/LinkedIn.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/LinkedIn.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Pinboard.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Pinboard.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Pinterest.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Pinterest.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Pocket.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Pocket.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Reddit.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Reddit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Tumblr.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Tumblr.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Twitter.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Twitter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/flat_web_icon_set/black/Wordpress.png" afterPath="$PROJECT_DIR$/website/images/flat_web_icon_set/black/Wordpress.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/nextPage.jpg" afterPath="$PROJECT_DIR$/website/images/nextPage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/read.jpg" afterPath="$PROJECT_DIR$/website/images/read.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/write.jpg" afterPath="$PROJECT_DIR$/website/images/write.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/writeFromRead.jpg" afterPath="$PROJECT_DIR$/website/images/writeFromRead.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/website/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/website/jquery-3.2.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/messages.json" afterPath="$PROJECT_DIR$/website/messages.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/note_submitted.html" afterPath="$PROJECT_DIR$/website/note_submitted.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/read_note.html" afterPath="$PROJECT_DIR$/website/read_note.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sendNote.js" afterPath="$PROJECT_DIR$/website/sendNote.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sendNote.php" afterPath="$PROJECT_DIR$/website/sendNote.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/website/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/write_note.html" afterPath="$PROJECT_DIR$/website/write_note.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/index.php" afterPath="$PROJECT_DIR$/website/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +16,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="105">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -253,7 +223,7 @@
       <workItem from="1512362783316" duration="4099000" />
       <workItem from="1512402502779" duration="13084000" />
       <workItem from="1512580942352" duration="10000" />
-      <workItem from="1512581455991" duration="467000" />
+      <workItem from="1512581455991" duration="584000" />
     </task>
     <servers />
   </component>
@@ -263,7 +233,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136645000" />
+    <option name="totallyTimeSpent" value="136762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -529,8 +499,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding />
         </state>
       </provider>
