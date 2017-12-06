@@ -1,6 +1,7 @@
 <?php
 /*require('../vendor/autoload.php');*/
-    include_once("home.html");
+    /*include_once("index.html");*/
+    include("/");
 ?>
 /**
  * Created by PhpStorm.
