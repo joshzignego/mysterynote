@@ -24,17 +24,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/website/index.php" />
         <option value="$PROJECT_DIR$/website/home.html" />
+        <option value="$PROJECT_DIR$/website/index.php" />
       </list>
     </option>
   </component>
@@ -270,7 +270,7 @@
       <workItem from="1512362783316" duration="4099000" />
       <workItem from="1512402502779" duration="13084000" />
       <workItem from="1512580942352" duration="10000" />
-      <workItem from="1512581455991" duration="812000" />
+      <workItem from="1512581455991" duration="926000" />
     </task>
     <servers />
   </component>
@@ -280,7 +280,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136990000" />
+    <option name="totallyTimeSpent" value="137104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -512,14 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/note_submitted.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -548,6 +540,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
