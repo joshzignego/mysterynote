@@ -34,7 +34,7 @@ else {
         exit;
     }
 
-    $insert = pg_query($dbconn, "INSERT INTO testMessages VALUES ('testMessageInsert1')");
+    $insert = pg_query($dbconn, "INSERT INTO testMessages(message) VALUES ('testMessageInsert1')");
     if (!$insert) {
         echo "An error occurred inserting ;).\n";
         exit;
