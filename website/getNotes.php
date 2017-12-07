@@ -20,16 +20,29 @@ $port = "5432";
 
 
 $dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
+
+if (!$dbconn) {
+    echo json_encode("connection error to DB");
+    exit;
+}
+else {
 //$sql = "create table lorem2 (id int not null, foo varchar(15), primary key (id));";
 //$r = pg_query($dbconn, $sql);
+    $insert = pg_query($dbconn, "INSERT INTO lorem2 VALUES (4, 'Insert4')");
 
-$insert = "INSERT INTO lorem2 VALUES (2, 'Insert2');";
-$insetion = pg_query($dbconn, $insert);
 
-$tbls = "select * from lorem2;";
-$qr = pg_query($dbconn, $tbls);
+    $result = pg_query($dbconn, "SELECT foo FROM lorem2");
+    if (!$result) {
+        echo "An error occurred getting result.\n";
+        exit;
+    }
 
-echo json_encode($qr);
+    while ($row = pg_fetch_row($result)) {
+        echo "Foo: $row[1]";
+    }
+
+
+    //echo json_encode("insert is".$insert.""$qr);
     //echo "PDO connection object created";
     //$file = 'messages.json';
     //$content = json_decode(file_get_contents($file), true);
@@ -37,7 +50,7 @@ echo json_encode($qr);
 
 //echo json_encode($affected_rows);
 
-
+}
 
 
 //https://stackoverflow.com/questions/7165395/call-php-function-from-javascript

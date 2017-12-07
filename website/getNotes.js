@@ -96,7 +96,7 @@ function drawOutput(responseText) {
 
 
 
-    document.getElementById('noteString').innerHTML = JSON.parse(responseText);
+    document.getElementById('noteString').innerHTML = responseText;
     /*
 
 
