@@ -27,7 +27,32 @@ if (!$dbconn) {
 }
 else {
 //$sql = "create table lorem2 (id int not null, foo varchar(15), primary key (id));";
-//$r = pg_query($dbconn, $sql);
+
+    $r = pg_query($dbconn, "CREATE TABLE IF NOT EXISTS testMessages (id SERIAL, message varchar(2000))");
+    if (!$r) {
+        echo "An error occurred creating).\n";
+        exit;
+    }
+
+    $insert = pg_query($dbconn, "INSERT INTO testMessages VALUES ('testMessageInsert1')");
+    if (!$insert) {
+        echo "An error occurred inserting ;).\n";
+        exit;
+    }
+
+    $result = pg_query($dbconn, "SELECT * FROM testMessages");
+    if (!$result) {
+        echo "An error occurred getting result.\n";
+        exit;
+    }
+
+    while ($row = pg_fetch_row($result)) {
+        echo "Message: $row[0]";
+    }
+
+
+
+/*
     $insert = pg_query($dbconn, "INSERT INTO lorem2 VALUES (6, 'Insert6')");
     if (!$insert) {
         echo "An error occurred inserting ;).\n";
@@ -44,7 +69,7 @@ else {
     while ($row = pg_fetch_row($result)) {
         echo "Foo: $row[0]";
     }
-
+*/
 
     //echo json_encode("insert is".$insert.""$qr);
     //echo "PDO connection object created";
