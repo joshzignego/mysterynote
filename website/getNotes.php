@@ -26,7 +26,7 @@ $dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$
 $insert = "INSERT INTO lorem2 VALUES (1, 'Testing Database Insert1');";
 $insetion = pg_query($dbconn, $insert);
 
-$tbls = "select * from lorem2";
+$tbls = "select * from lorem2;";
 $qr = pg_query($dbconn, $tbls);
 
 echo json_encode($qr);

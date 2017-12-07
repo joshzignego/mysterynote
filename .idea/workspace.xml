@@ -16,17 +16,17 @@
       <file leaf-file-name="getNotes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/getNotes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding>
-                <marker date="1512676201000" expanded="true" signature="517:589" ph="create table... lorem" />
-                <marker date="1512676201000" expanded="true" signature="637:654" ph="INSERT INTO lorem... " />
-                <marker date="1512676201000" expanded="true" signature="637:666" ph="INSERT INTO lorem... " />
-                <marker date="1512676201000" expanded="true" signature="637:691" ph="INSERT INTO lorem... " />
-                <marker date="1512676201000" expanded="true" signature="637:694" ph="INSERT INTO lorem... " />
-                <marker date="1512676201000" expanded="true" signature="637:821" ph="INSERT INTO lorem... " />
-                <marker date="1512676201000" expanded="true" signature="748:767" ph="select * fro... lorem" />
-                <marker date="1512676201000" expanded="true" signature="748:768" ph="select * fro... lorem2" />
+                <marker date="1512676228000" expanded="true" signature="517:589" ph="create table... lorem" />
+                <marker date="1512676228000" expanded="true" signature="637:654" ph="INSERT INTO lorem... " />
+                <marker date="1512676228000" expanded="true" signature="637:666" ph="INSERT INTO lorem... " />
+                <marker date="1512676228000" expanded="true" signature="637:691" ph="INSERT INTO lorem... " />
+                <marker date="1512676228000" expanded="true" signature="637:694" ph="INSERT INTO lorem... " />
+                <marker date="1512676228000" expanded="true" signature="637:822" ph="INSERT INTO lorem... " />
+                <marker date="1512676228000" expanded="true" signature="748:767" ph="select * fro... lorem" />
+                <marker date="1512676228000" expanded="true" signature="748:768" ph="select * fro... lorem2" />
               </folding>
             </state>
           </provider>
@@ -269,7 +269,7 @@
       <workItem from="1512580942352" duration="10000" />
       <workItem from="1512581455991" duration="3563000" />
       <workItem from="1512600583871" duration="3267000" />
-      <workItem from="1512673660802" duration="2425000" />
+      <workItem from="1512673660802" duration="2468000" />
     </task>
     <servers />
   </component>
@@ -279,7 +279,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145433000" />
+    <option name="totallyTimeSpent" value="145476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -537,17 +537,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/getNotes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
-            <marker date="1512676201000" expanded="true" signature="517:589" ph="create table... lorem" />
-            <marker date="1512676201000" expanded="true" signature="637:654" ph="INSERT INTO lorem... " />
-            <marker date="1512676201000" expanded="true" signature="637:666" ph="INSERT INTO lorem... " />
-            <marker date="1512676201000" expanded="true" signature="637:691" ph="INSERT INTO lorem... " />
-            <marker date="1512676201000" expanded="true" signature="637:694" ph="INSERT INTO lorem... " />
-            <marker date="1512676201000" expanded="true" signature="637:821" ph="INSERT INTO lorem... " />
-            <marker date="1512676201000" expanded="true" signature="748:767" ph="select * fro... lorem" />
-            <marker date="1512676201000" expanded="true" signature="748:768" ph="select * fro... lorem2" />
+            <marker date="1512676228000" expanded="true" signature="517:589" ph="create table... lorem" />
+            <marker date="1512676228000" expanded="true" signature="637:654" ph="INSERT INTO lorem... " />
+            <marker date="1512676228000" expanded="true" signature="637:666" ph="INSERT INTO lorem... " />
+            <marker date="1512676228000" expanded="true" signature="637:691" ph="INSERT INTO lorem... " />
+            <marker date="1512676228000" expanded="true" signature="637:694" ph="INSERT INTO lorem... " />
+            <marker date="1512676228000" expanded="true" signature="637:822" ph="INSERT INTO lorem... " />
+            <marker date="1512676228000" expanded="true" signature="748:767" ph="select * fro... lorem" />
+            <marker date="1512676228000" expanded="true" signature="748:768" ph="select * fro... lorem2" />
           </folding>
         </state>
       </provider>
