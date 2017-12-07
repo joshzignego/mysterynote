@@ -11,11 +11,13 @@ if (isset($_POST['message'])) {
 
     $r = pg_query($dbconn, "CREATE TABLE IF NOT EXISTS testMessages (id SERIAL, message varchar(2000))");
     if (!$r) {
+        echo "Error on create!";
         exit;
     }
 
     $insert = pg_query($dbconn, "INSERT INTO testMessages(message) VALUES ($message)");
     if (!$insert) {
+        echo "Error on insert!";
         exit;
     }
     header('Location: /note_submitted.html');
