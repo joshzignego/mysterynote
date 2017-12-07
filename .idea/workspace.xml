@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17df698f-801b-40a0-9997-708a69387311" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/website/index.html" afterPath="$PROJECT_DIR$/website/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/getNotes.js" afterPath="$PROJECT_DIR$/website/getNotes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/getNotes.php" afterPath="$PROJECT_DIR$/website/getNotes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/note_submitted.html" afterPath="$PROJECT_DIR$/website/note_submitted.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/read_note.html" afterPath="$PROJECT_DIR$/website/read_note.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/sendNote.php" afterPath="$PROJECT_DIR$/website/sendNote.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/write_note.html" afterPath="$PROJECT_DIR$/website/write_note.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,19 +13,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getNotes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getNotes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/getNotes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="165">
+              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding>
-                <marker date="1512675312000" expanded="true" signature="624:695" ph="create table... lorem" />
-                <marker date="1512675312000" expanded="true" signature="741:758" ph="INSERT INTO lorem... " />
-                <marker date="1512675312000" expanded="true" signature="741:779" ph="INSERT INTO lorem... " />
-                <marker date="1512675312000" expanded="true" signature="741:804" ph="INSERT INTO lorem... " />
-                <marker date="1512675312000" expanded="true" signature="741:806" ph="INSERT INTO lorem... " />
-                <marker date="1512675312000" expanded="true" signature="741:931" ph="INSERT INTO lorem... " />
-                <marker date="1512675312000" expanded="true" signature="859:878" ph="select * fro... lorem" />
+                <marker date="1512675672000" expanded="true" signature="515:586" ph="create table... lorem" />
+                <marker date="1512675672000" expanded="true" signature="632:649" ph="INSERT INTO lorem... " />
+                <marker date="1512675672000" expanded="true" signature="632:670" ph="INSERT INTO lorem... " />
+                <marker date="1512675672000" expanded="true" signature="632:695" ph="INSERT INTO lorem... " />
+                <marker date="1512675672000" expanded="true" signature="632:697" ph="INSERT INTO lorem... " />
+                <marker date="1512675672000" expanded="true" signature="632:822" ph="INSERT INTO lorem... " />
+                <marker date="1512675672000" expanded="true" signature="750:769" ph="select * fro... lorem" />
               </folding>
             </state>
           </provider>
@@ -71,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -277,7 +268,7 @@
       <workItem from="1512580942352" duration="10000" />
       <workItem from="1512581455991" duration="3563000" />
       <workItem from="1512600583871" duration="3267000" />
-      <workItem from="1512673660802" duration="1609000" />
+      <workItem from="1512673660802" duration="1922000" />
     </task>
     <servers />
   </component>
@@ -287,7 +278,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144617000" />
+    <option name="totallyTimeSpent" value="144930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -298,7 +289,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31268436" sideWeight="0.502907" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31088826" sideWeight="0.49709302" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31088826" sideWeight="0.49709302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -535,27 +526,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/getNotes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <marker date="1512675312000" expanded="true" signature="624:695" ph="create table... lorem" />
-            <marker date="1512675312000" expanded="true" signature="741:758" ph="INSERT INTO lorem... " />
-            <marker date="1512675312000" expanded="true" signature="741:779" ph="INSERT INTO lorem... " />
-            <marker date="1512675312000" expanded="true" signature="741:804" ph="INSERT INTO lorem... " />
-            <marker date="1512675312000" expanded="true" signature="741:806" ph="INSERT INTO lorem... " />
-            <marker date="1512675312000" expanded="true" signature="741:931" ph="INSERT INTO lorem... " />
-            <marker date="1512675312000" expanded="true" signature="859:878" ph="select * fro... lorem" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/getNotes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <marker date="1512675672000" expanded="true" signature="515:586" ph="create table... lorem" />
+            <marker date="1512675672000" expanded="true" signature="632:649" ph="INSERT INTO lorem... " />
+            <marker date="1512675672000" expanded="true" signature="632:670" ph="INSERT INTO lorem... " />
+            <marker date="1512675672000" expanded="true" signature="632:695" ph="INSERT INTO lorem... " />
+            <marker date="1512675672000" expanded="true" signature="632:697" ph="INSERT INTO lorem... " />
+            <marker date="1512675672000" expanded="true" signature="632:822" ph="INSERT INTO lorem... " />
+            <marker date="1512675672000" expanded="true" signature="750:769" ph="select * fro... lorem" />
+          </folding>
         </state>
       </provider>
     </entry>
