@@ -41,7 +41,6 @@ function getNextNote(document) {
     if("true".localeCompare(localStorage.getItem(index.toString() + "indexHasBeenShown")) == 0) {
         document.getElementById('noteString').innerHTML = localStorage.getItem(index.toString());
         localStorage.setItem('messageIndex', index.toString());
-        return;
     } else {
         document.getElementById('noteString').innerHTML = localStorage.getItem(index.toString());
         localStorage.setItem(index.toString() + "indexHasBeenShown", "true");
