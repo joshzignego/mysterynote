@@ -31,7 +31,7 @@
             <state relative-caret-position="330">
               <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
               <folding>
-                <marker date="1512686509000" expanded="true" signature="353:402" ph="INSERT INTO testMessages... " />
+                <marker date="1512687081000" expanded="true" signature="354:401" ph="INSERT INTO testMessages... " />
               </folding>
             </state>
           </provider>
@@ -274,7 +274,7 @@
       <workItem from="1512581455991" duration="3563000" />
       <workItem from="1512600583871" duration="3267000" />
       <workItem from="1512673660802" duration="9114000" />
-      <workItem from="1512685845543" duration="534000" />
+      <workItem from="1512685845543" duration="780000" />
     </task>
     <servers />
   </component>
@@ -284,7 +284,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152656000" />
+    <option name="totallyTimeSpent" value="152902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -375,7 +375,7 @@
         <state relative-caret-position="105">
           <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
-            <marker date="1512686509000" expanded="true" signature="353:402" ph="INSERT INTO testMessages... " />
+            <marker date="1512687081000" expanded="true" signature="354:401" ph="INSERT INTO testMessages... " />
           </folding>
         </state>
       </provider>
@@ -405,7 +405,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
-            <marker date="1512686509000" expanded="true" signature="353:402" ph="INSERT INTO testMessages... " />
+            <marker date="1512687081000" expanded="true" signature="354:401" ph="INSERT INTO testMessages... " />
           </folding>
         </state>
       </provider>
@@ -533,7 +533,7 @@
         <state relative-caret-position="330">
           <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
           <folding>
-            <marker date="1512686509000" expanded="true" signature="353:402" ph="INSERT INTO testMessages... " />
+            <marker date="1512687081000" expanded="true" signature="354:401" ph="INSERT INTO testMessages... " />
           </folding>
         </state>
       </provider>

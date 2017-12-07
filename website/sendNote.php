@@ -9,9 +9,9 @@ if (!$databaseConnection) {
 
 if (isset($_POST['message'])) {
     $message = $_POST['message'];
-    $message = pg_escape_string($message);
+    $message = pg_escape_literal($message);
 
-    $insert = pg_query($databaseConnection, "INSERT INTO messages(message) VALUES ('$message')");
+    $insert = pg_query($databaseConnection, "INSERT INTO messages(message) VALUES ($message)");
     if (!$insert) {
         echo "Error on submitting the note!"."\n";
         echo pg_last_error($databaseConnection);
