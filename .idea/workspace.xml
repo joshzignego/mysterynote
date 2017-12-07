@@ -4,6 +4,7 @@
     <list default="true" id="17df698f-801b-40a0-9997-708a69387311" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/getNotes.js" afterPath="$PROJECT_DIR$/website/getNotes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/getNotes.php" afterPath="$PROJECT_DIR$/website/getNotes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/sendNote.php" afterPath="$PROJECT_DIR$/website/sendNote.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +18,10 @@
       <file leaf-file-name="getNotes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/getNotes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <marker date="1512679534000" expanded="true" signature="673:747" ph="CREATE TABLE... IF" />
-                <marker date="1512679534000" expanded="true" signature="867:929" ph="INSERT INTO testMessages... " />
-                <marker date="1512679534000" expanded="true" signature="1057:1083" ph="SELECT * FRO... testMessages" />
+                <marker date="1512680410000" expanded="true" signature="687:713" ph="SELECT * FRO... testMessages" />
               </folding>
             </state>
           </provider>
@@ -31,10 +30,12 @@
       <file leaf-file-name="sendNote.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/sendNote.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
-                <marker date="1512604731000" expanded="true" signature="815:895" ph=" Created by PhpStorm. ..." />
+                <marker date="1512680410000" expanded="true" signature="225:299" ph="CREATE TABLE... IF" />
+                <marker date="1512680410000" expanded="true" signature="372:423" ph="INSERT INTO testMessages... " />
+                <marker date="1512680410000" expanded="true" signature="1001:1081" ph=" Created by PhpStorm. ..." />
               </folding>
             </state>
           </provider>
@@ -43,8 +44,8 @@
       <file leaf-file-name="getNotes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/getNotes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
               <folding>
                 <element signature="e#27#473#0" expanded="false" />
                 <element signature="n#!!block;n#escapeHtml#0" expanded="false" />
@@ -138,12 +139,12 @@
         <option value="$PROJECT_DIR$/website/home.html" />
         <option value="$PROJECT_DIR$/website/index.html" />
         <option value="$PROJECT_DIR$/website/style.css" />
-        <option value="$PROJECT_DIR$/website/sendNote.php" />
         <option value="$PROJECT_DIR$/website/read_note.html" />
         <option value="$PROJECT_DIR$/website/note_submitted.html" />
         <option value="$PROJECT_DIR$/website/write_note.html" />
         <option value="$PROJECT_DIR$/website/index.php" />
         <option value="$PROJECT_DIR$/website/getNotes.php" />
+        <option value="$PROJECT_DIR$/website/sendNote.php" />
         <option value="$PROJECT_DIR$/website/getNotes.js" />
       </list>
     </option>
@@ -278,7 +279,7 @@
       <workItem from="1512580942352" duration="10000" />
       <workItem from="1512581455991" duration="3563000" />
       <workItem from="1512600583871" duration="3267000" />
-      <workItem from="1512673660802" duration="5383000" />
+      <workItem from="1512673660802" duration="6018000" />
     </task>
     <servers />
   </component>
@@ -288,7 +289,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148391000" />
+    <option name="totallyTimeSpent" value="149026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -380,7 +381,9 @@
         <state relative-caret-position="105">
           <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
-            <marker date="1512604731000" expanded="true" signature="815:895" ph=" Created by PhpStorm. ..." />
+            <marker date="1512680410000" expanded="true" signature="225:299" ph="CREATE TABLE... IF" />
+            <marker date="1512680410000" expanded="true" signature="372:423" ph="INSERT INTO testMessages... " />
+            <marker date="1512680410000" expanded="true" signature="1001:1081" ph=" Created by PhpStorm. ..." />
           </folding>
         </state>
       </provider>
@@ -410,7 +413,9 @@
         <state relative-caret-position="135">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
-            <marker date="1512604731000" expanded="true" signature="815:895" ph=" Created by PhpStorm. ..." />
+            <marker date="1512680410000" expanded="true" signature="225:299" ph="CREATE TABLE... IF" />
+            <marker date="1512680410000" expanded="true" signature="372:423" ph="INSERT INTO testMessages... " />
+            <marker date="1512680410000" expanded="true" signature="1001:1081" ph=" Created by PhpStorm. ..." />
           </folding>
         </state>
       </provider>
@@ -524,32 +529,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/sendNote.php">
+    <entry file="file://$PROJECT_DIR$/website/getNotes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1512604731000" expanded="true" signature="815:895" ph=" Created by PhpStorm. ..." />
+            <marker date="1512680410000" expanded="true" signature="687:713" ph="SELECT * FRO... testMessages" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/getNotes.php">
+    <entry file="file://$PROJECT_DIR$/website/sendNote.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state relative-caret-position="135">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
-            <marker date="1512679534000" expanded="true" signature="673:747" ph="CREATE TABLE... IF" />
-            <marker date="1512679534000" expanded="true" signature="867:929" ph="INSERT INTO testMessages... " />
-            <marker date="1512679534000" expanded="true" signature="1057:1083" ph="SELECT * FRO... testMessages" />
+            <marker date="1512680410000" expanded="true" signature="225:299" ph="CREATE TABLE... IF" />
+            <marker date="1512680410000" expanded="true" signature="372:423" ph="INSERT INTO testMessages... " />
+            <marker date="1512680410000" expanded="true" signature="1001:1081" ph=" Created by PhpStorm. ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/getNotes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
           <folding>
             <element signature="e#27#473#0" expanded="false" />
             <element signature="n#!!block;n#escapeHtml#0" expanded="false" />

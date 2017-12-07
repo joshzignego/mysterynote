@@ -1,57 +1,42 @@
 <?php
+$dbconn = pg_connect(getenv("DATABASE_URL"));
+
+//There was an error connecting to the database
+if (!$dbconn) {
+    exit;
+}
+
+if (isset($_POST['message'])) {
+    $message = $_POST['message'];
+
+    $r = pg_query($dbconn, "CREATE TABLE IF NOT EXISTS testMessages (id SERIAL, message varchar(2000))");
+    if (!$r) {
+        exit;
+    }
+
+    $insert = pg_query($dbconn, "INSERT INTO testMessages(message) VALUES ($message)");
+    if (!$insert) {
+        exit;
+    }
 
 
 
 
-        if (isset($_POST['message'])) {
-            $message = $_POST['message'];
-            $file = 'messages.json';
-            $content = json_decode(file_get_contents($file) , true );
+
+
+            //$file = 'messages.json';
+            //$content = json_decode(file_get_contents($file) , true );
             //$messageAsJSObject = '{"message": "' . $message . '"}';
             //$data = json_encode($message);
-            $content[messages][] = array(
-                'message' => $message
-            );
-
-            //encode the new data
-            $content_json = json_encode($content, JSON_PRETTY_PRINT);
-            file_put_contents($file, $content_json, LOCK_EX);
-
-        }
-
-       header('Location: /note_submitted.html'); // redirect back to the main site
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//URL: https://stackoverflow.com/questions/13973963/easiest-way-to-store-data-from-web-site-on-server-side
+            //$content[messages][] = array(
+              //  'message' => $message
+            //);
+    //encode the new data
+    //$content_json = json_encode($content, JSON_PRETTY_PRINT);
+    //file_put_contents($file, $content_json, LOCK_EX);
+    header('Location: /note_submitted.html');
+}
 ?>
-
 
 /**
  * Created by PhpStorm.

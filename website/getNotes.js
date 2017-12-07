@@ -90,7 +90,7 @@ function drawError() {
 // handles the response, adds the html
 function drawOutput(responseText) {
     var jsonData = JSON.parse(responseText);
-    document.getElementById('noteString').innerHTML = jsonData[4];
+    document.getElementById('noteString').innerHTML = jsonData[jsonData.size-1];
 
 
     /*

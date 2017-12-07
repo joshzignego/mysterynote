@@ -4,40 +4,18 @@
     //echo json_encode($content);
 
 
-/*$host = "ec2-54-243-211-197.compute-1.amazonaws.com";
-$dbname = "d2h07jacfl1u2v";
-$user = "fbzwtonwoufowv";
-$password = "5e064691dd5227cee61ada3cc843b64ca68eaf3fe99c5bb8c9a9df46aa2b47cd";
-$port = "5432";
-//$databaseURL =  getenv("DATABASE_URL");
-//$dbconn = pg_connect();
-*/
+    /*$host = "ec2-54-243-211-197.compute-1.amazonaws.com";
+    $dbname = "d2h07jacfl1u2v";
+    $user = "fbzwtonwoufowv";
+    $password = "5e064691dd5227cee61ada3cc843b64ca68eaf3fe99c5bb8c9a9df46aa2b47cd";
+    $port = "5432";
+    //$databaseURL =  getenv("DATABASE_URL");
+    $dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
+    */
 
-
-
-
-
-
-
-//$dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
-$dbconn = pg_connect(getenv("DATABASE_URL"));
-
-
-if (!$dbconn) {
-    echo json_encode("connection error to DB");
-    exit;
-}
-else {
-
-    $r = pg_query($dbconn, "CREATE TABLE IF NOT EXISTS testMessages (id SERIAL, message varchar(2000))");
-    if (!$r) {
-        echo "An error occurred creating).\n";
-        exit;
-    }
-
-    $insert = pg_query($dbconn, "INSERT INTO testMessages(message) VALUES ('testMessageInsert')");
-    if (!$insert) {
-        echo "An error occurred inserting ;).\n";
+    $dbconn = pg_connect(getenv("DATABASE_URL"));
+    if (!$dbconn) {
+        echo json_encode("connection error to DB");
         exit;
     }
 
@@ -53,5 +31,5 @@ else {
     }
 
     echo json_encode($messagesArray);
-}
+
 ?>
