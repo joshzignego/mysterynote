@@ -42,7 +42,7 @@ else {
     }
 
     while ($row = pg_fetch_row($result)) {
-        echo "Foo: $row[1]";
+        echo "Foo: $row[0]";
     }
 
 

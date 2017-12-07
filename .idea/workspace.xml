@@ -16,13 +16,13 @@
       <file leaf-file-name="getNotes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/getNotes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="442">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
-                <marker date="1512677470000" expanded="true" signature="601:673" ph="create table... lorem" />
-                <marker date="1512677470000" expanded="true" signature="742:782" ph="INSERT INTO lorem2... " />
-                <marker date="1512677470000" expanded="true" signature="911:933" ph="SELECT foo F... lorem2" />
-                <marker date="1512677470000" expanded="true" signature="1109:1133" ph="INSERT INTO lorem... " />
+                <marker date="1512677578000" expanded="true" signature="601:673" ph="create table... lorem" />
+                <marker date="1512677578000" expanded="true" signature="742:782" ph="INSERT INTO lorem2... " />
+                <marker date="1512677578000" expanded="true" signature="911:933" ph="SELECT foo F... lorem2" />
+                <marker date="1512677578000" expanded="true" signature="1109:1133" ph="INSERT INTO lorem... " />
               </folding>
             </state>
           </provider>
@@ -265,7 +265,7 @@
       <workItem from="1512580942352" duration="10000" />
       <workItem from="1512581455991" duration="3563000" />
       <workItem from="1512600583871" duration="3267000" />
-      <workItem from="1512673660802" duration="3406000" />
+      <workItem from="1512673660802" duration="3550000" />
     </task>
     <servers />
   </component>
@@ -275,7 +275,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146414000" />
+    <option name="totallyTimeSpent" value="146558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -533,13 +533,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/getNotes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <marker date="1512677470000" expanded="true" signature="601:673" ph="create table... lorem" />
-            <marker date="1512677470000" expanded="true" signature="742:782" ph="INSERT INTO lorem2... " />
-            <marker date="1512677470000" expanded="true" signature="911:933" ph="SELECT foo F... lorem2" />
-            <marker date="1512677470000" expanded="true" signature="1109:1133" ph="INSERT INTO lorem... " />
+            <marker date="1512677578000" expanded="true" signature="601:673" ph="create table... lorem" />
+            <marker date="1512677578000" expanded="true" signature="742:782" ph="INSERT INTO lorem2... " />
+            <marker date="1512677578000" expanded="true" signature="911:933" ph="SELECT foo F... lorem2" />
+            <marker date="1512677578000" expanded="true" signature="1109:1133" ph="INSERT INTO lorem... " />
           </folding>
         </state>
       </provider>
