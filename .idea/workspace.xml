@@ -28,7 +28,7 @@
       <file leaf-file-name="sendNote.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/sendNote.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="18">
               <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <marker date="1512680410000" expanded="true" signature="225:299" ph="CREATE TABLE... IF" />
@@ -57,6 +57,16 @@
                 <element signature="n#!!block;n#drawError#0" expanded="false" />
                 <element signature="n#!!block;n#getRequest#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="write_note.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/write_note.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -277,7 +287,7 @@
       <workItem from="1512580942352" duration="10000" />
       <workItem from="1512581455991" duration="3563000" />
       <workItem from="1512600583871" duration="3267000" />
-      <workItem from="1512673660802" duration="6124000" />
+      <workItem from="1512673660802" duration="6325000" />
     </task>
     <servers />
   </component>
@@ -287,7 +297,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149132000" />
+    <option name="totallyTimeSpent" value="149333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -495,14 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/write_note.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/note_submitted.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -527,9 +529,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/write_note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/sendNote.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="18">
           <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <marker date="1512680410000" expanded="true" signature="225:299" ph="CREATE TABLE... IF" />
