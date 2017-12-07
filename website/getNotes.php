@@ -34,7 +34,7 @@ else {
         exit;
     }
 
-    $insert = pg_query($dbconn, "INSERT INTO testMessages(message) VALUES ('testMessageInsert1')");
+    $insert = pg_query($dbconn, "INSERT INTO testMessages(message) VALUES ('testMessageInsert')");
     if (!$insert) {
         echo "An error occurred inserting ;).\n";
         exit;
@@ -47,9 +47,10 @@ else {
     }
 
 
-    $messagesArray = array();
+    $messagesArray = array("poop this is POOPOPOPOP!");
     while ($row = pg_fetch_row($result)) {
-        array_push($stack, "$row[0] $row[1]");
+        $messageLine = "" . $row[0] . $row[1];
+        array_push($messagesArray, $messageLine);
     }
 
     echo json_encode($messagesArray);
