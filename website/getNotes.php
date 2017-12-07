@@ -20,13 +20,13 @@ $port = "5432";
 
 
 $dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
-$sql = "create table lorem (id int not null, foo varchar(15), primary key (id));";
+$sql = "create table lorem2 (id int not null, foo varchar(15), primary key (id));";
 $r = pg_query($dbconn, $sql);
 
-$insert = "INSERT INTO lorem (id, foo) VALUES (0, 'Testing Database Insert')";
+$insert = "INSERT INTO lorem2 VALUES (0, 'Testing Database Insert')";
 $insetion = pg_query($dbconn, $insert);
 
-$tbls = "select * from lorem";
+$tbls = "select * from lorem2";
 $qr = pg_query($dbconn, $tbls);
 
 echo json_encode($qr);
