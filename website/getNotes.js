@@ -1,5 +1,7 @@
 window.onload = function() {
     getMessages(document);
+
+    /*
     document.body.onkeydown=function(e){
         var keyCode = (window.event) ? event.keyCode : e.which;
         if(keyCode==13)
@@ -12,7 +14,7 @@ window.onload = function() {
         else if(keyCode == 39) {//right arrow
             getNextNote(document);
         }
-    };
+    };*/
 };
 
 function escapeHtml(text) {
@@ -88,7 +90,20 @@ function drawError() {
 
 // handles the response, adds the html
 function drawOutput(responseText) {
-    var jsonData = JSON.parse(responseText);
+    //var jsonData = JSON.parse(responseText);
+
+
+
+
+
+    document.getElementById('noteString').innerHTML = JSON.parse(responseText);
+    /*
+
+
+
+
+
+
     var size = jsonData.messages.length;
 
     var a = [size];
@@ -107,7 +122,7 @@ function drawOutput(responseText) {
     localStorage.setItem('messagesSize', size.toString());
     localStorage.setItem('messageIndex', init.toString());
 
-    getNextNote(document);
+    getNextNote(document);*/
 }
 
 // helper function for cross-browser request object

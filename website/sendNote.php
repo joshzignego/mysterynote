@@ -1,4 +1,8 @@
 <?php
+
+
+
+
         if (isset($_POST['message'])) {
             $message = $_POST['message'];
             $file = 'messages.json';
@@ -16,6 +20,35 @@
         }
 
        header('Location: /note_submitted.html'); // redirect back to the main site
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //URL: https://stackoverflow.com/questions/13973963/easiest-way-to-store-data-from-web-site-on-server-side
 ?>
 
