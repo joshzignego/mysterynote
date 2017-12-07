@@ -12,6 +12,8 @@
         exit;
     }
 
+$result = pg_query($databaseConnection, "DROP TABLE lorem, lorem2, testMessages");
+
     $messagesArray = array();
     while ($row = pg_fetch_row($result)) {
         array_push($messagesArray, "" . $row[0]);
