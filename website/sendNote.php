@@ -10,12 +10,6 @@ if (!$databaseConnection) {
 if (isset($_POST['message'])) {
     $message = $_POST['message'];
 
-    $r = pg_query($databaseConnection, "CREATE TABLE IF NOT EXISTS messages (id SERIAL, message varchar(2000))");
-    if (!$r) {
-        echo "Error on submitting the note!";
-        exit;
-    }
-
     $insert = pg_query($databaseConnection, "INSERT INTO messages(message) VALUES ('$message')");
     if (!$insert) {
         echo "Error on submitting the note!";
