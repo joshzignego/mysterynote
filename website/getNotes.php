@@ -46,10 +46,13 @@ else {
         exit;
     }
 
+
+    $messagesArray = array();
     while ($row = pg_fetch_row($result)) {
-        echo "Message: $row[0]";
+        array_push($stack, "$row[0] $row[1]");
     }
 
+    echo json_encode($messagesArray);
 
 
 /*
@@ -66,18 +69,15 @@ else {
         exit;
     }
 
-    while ($row = pg_fetch_row($result)) {
-        echo "Foo: $row[0]";
+
+
+
+    /*while ($row = pg_fetch_row($result)) {
+        echo "Message: $row[0] $row[1]";
     }
 */
 
-    //echo json_encode("insert is".$insert.""$qr);
-    //echo "PDO connection object created";
-    //$file = 'messages.json';
-    //$content = json_decode(file_get_contents($file), true);
-    //echo json_encode($content);
 
-//echo json_encode($affected_rows);
 
 }
 
