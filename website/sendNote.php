@@ -17,7 +17,7 @@ if (isset($_POST['message'])) {
 
     $insert = pg_query($dbconn, "INSERT INTO testMessages(message) VALUES ($message)");
     if (!$insert) {
-        echo "Error on insert!";
+        echo "Error on insert!".$message.(gettype($message));
         exit;
     }
     header('Location: /note_submitted.html');
