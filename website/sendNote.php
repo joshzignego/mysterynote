@@ -15,7 +15,7 @@ if (isset($_POST['message'])) {
         exit;
     }
 
-    $insert = pg_query($dbconn, "INSERT INTO testMessages(message) VALUES ($message)");
+    $insert = pg_query($dbconn, "INSERT INTO testMessages(message) VALUES ('$message')");
     if (!$insert) {
         echo "Error on insert!".$message.(gettype($message));
         exit;
