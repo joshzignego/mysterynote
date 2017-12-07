@@ -28,7 +28,11 @@ if (!$dbconn) {
 else {
 //$sql = "create table lorem2 (id int not null, foo varchar(15), primary key (id));";
 //$r = pg_query($dbconn, $sql);
-    $insert = pg_query($dbconn, "INSERT INTO lorem2 VALUES (4, 'Insert4')");
+    $insert = pg_query($dbconn, "INSERT INTO lorem2 VALUES (5, 'Insert5')");
+    if (!$insert) {
+        echo "An error occurred inserting ;).\n";
+        exit;
+    }
 
 
     $result = pg_query($dbconn, "SELECT foo FROM lorem2");
