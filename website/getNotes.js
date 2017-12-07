@@ -92,7 +92,6 @@ function drawOutput(responseText) {
     var jsonData = JSON.parse(responseText);
 
     var size = jsonData.length;
-    //document.getElementById('noteString').innerHTML = jsonData[size - 1];
 
     var a = [size];
     for (var j=0; j<size; j++) {

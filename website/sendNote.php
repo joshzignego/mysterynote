@@ -18,7 +18,7 @@ if (isset($_POST['message'])) {
     if (!$insert) {
         exit;
     }
-
+    header('Location: /note_submitted.html');
 
 
 
@@ -34,7 +34,7 @@ if (isset($_POST['message'])) {
     //encode the new data
     //$content_json = json_encode($content, JSON_PRETTY_PRINT);
     //file_put_contents($file, $content_json, LOCK_EX);
-    header('Location: /note_submitted.html');
+    //header('Location: /note_submitted.html');
 }
 ?>
 
