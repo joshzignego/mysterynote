@@ -19,7 +19,9 @@ $port = "5432";
 
 
 
-$dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
+//$dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
+$dbconn = pg_connect(getenv("DATABASE_URL"));
+
 
 if (!$dbconn) {
     echo json_encode("connection error to DB");
@@ -47,10 +49,9 @@ else {
     }
 
 
-    $messagesArray = array("poop this is POOPOPOPOP!");
+    $messagesArray = array();
     while ($row = pg_fetch_row($result)) {
-        $messageLine = "" . $row[0] . $row[1];
-        array_push($messagesArray, $messageLine);
+        array_push($messagesArray, "" . $row[0] . $row[1]);
     }
 
     echo json_encode($messagesArray);
