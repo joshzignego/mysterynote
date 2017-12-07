@@ -90,11 +90,9 @@ function drawError() {
 // handles the response, adds the html
 function drawOutput(responseText) {
     var jsonData = JSON.parse(responseText);
-    document.getElementById('noteString').innerHTML = jsonData[jsonData.length - 1];
 
-
-    /*
-    var size = jsonData.messages.length;
+    var size = jsonData.length;
+    //document.getElementById('noteString').innerHTML = jsonData[size - 1];
 
     var a = [size];
     for (var j=0; j<size; j++) {
@@ -104,7 +102,7 @@ function drawOutput(responseText) {
     a = shuffle(a);
 
     for (var i = 0; i < size; i++) {
-        localStorage.setItem((i+1).toString(), escapeHtml(jsonData.messages[a[i]].message));
+        localStorage.setItem((i+1).toString(), escapeHtml(jsonData[a[i]]));
         localStorage.setItem((i+1).toString() + "indexHasBeenShown", "false");
     }
 
@@ -112,7 +110,7 @@ function drawOutput(responseText) {
     localStorage.setItem('messagesSize', size.toString());
     localStorage.setItem('messageIndex', init.toString());
 
-    getNextNote(document);*/
+    getNextNote(document);
 }
 
 // helper function for cross-browser request object

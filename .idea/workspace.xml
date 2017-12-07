@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendNote.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sendNote.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/sendNote.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
@@ -39,22 +39,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getNotes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getNotes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/getNotes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="98" column="19" lean-forward="true" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+            <state relative-caret-position="375">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#27#473#0" expanded="false" />
                 <element signature="n#!!block;n#escapeHtml#0" expanded="false" />
-                <element signature="n#!!block;n#getNextNote#0" expanded="false" />
-                <element signature="e#893#1179#0" expanded="false" />
-                <element signature="e#1277#1462#0" expanded="false" />
-                <element signature="e#1468#1715#0" expanded="false" />
                 <element signature="n#!!block;n#getPrevNote#0" expanded="false" />
                 <element signature="n#!!block;n#getMessages#0" expanded="false" />
                 <element signature="n#!!block;n#shuffle#0" expanded="false" />
                 <element signature="n#!!block;n#drawError#0" expanded="false" />
+                <element signature="n#!!block;n#drawOutput#0" expanded="false" />
                 <element signature="n#!!block;n#getRequest#0" expanded="false" />
               </folding>
             </state>
@@ -287,7 +284,7 @@
       <workItem from="1512580942352" duration="10000" />
       <workItem from="1512581455991" duration="3563000" />
       <workItem from="1512600583871" duration="3267000" />
-      <workItem from="1512673660802" duration="6432000" />
+      <workItem from="1512673660802" duration="6672000" />
     </task>
     <servers />
   </component>
@@ -297,7 +294,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149440000" />
+    <option name="totallyTimeSpent" value="149680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -537,18 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/sendNote.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <marker date="1512680410000" expanded="true" signature="225:299" ph="CREATE TABLE... IF" />
-            <marker date="1512680410000" expanded="true" signature="372:423" ph="INSERT INTO testMessages... " />
-            <marker date="1512680410000" expanded="true" signature="1001:1081" ph=" Created by PhpStorm. ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/getNotes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -561,20 +546,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/getNotes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="98" column="19" lean-forward="true" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+        <state relative-caret-position="375">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#27#473#0" expanded="false" />
             <element signature="n#!!block;n#escapeHtml#0" expanded="false" />
-            <element signature="n#!!block;n#getNextNote#0" expanded="false" />
-            <element signature="e#893#1179#0" expanded="false" />
-            <element signature="e#1277#1462#0" expanded="false" />
-            <element signature="e#1468#1715#0" expanded="false" />
             <element signature="n#!!block;n#getPrevNote#0" expanded="false" />
             <element signature="n#!!block;n#getMessages#0" expanded="false" />
             <element signature="n#!!block;n#shuffle#0" expanded="false" />
             <element signature="n#!!block;n#drawError#0" expanded="false" />
+            <element signature="n#!!block;n#drawOutput#0" expanded="false" />
             <element signature="n#!!block;n#getRequest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/sendNote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <marker date="1512680410000" expanded="true" signature="225:299" ph="CREATE TABLE... IF" />
+            <marker date="1512680410000" expanded="true" signature="372:423" ph="INSERT INTO testMessages... " />
+            <marker date="1512680410000" expanded="true" signature="1001:1081" ph=" Created by PhpStorm. ..." />
           </folding>
         </state>
       </provider>
