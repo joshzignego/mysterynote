@@ -6,13 +6,11 @@
         exit;
     }
 
-    $result = pg_query($databaseConnection, "SELECT message FROM testMessages");
+    $result = pg_query($databaseConnection, "SELECT message FROM messages");
     if (!$result) {
         echo "An error occurred retrieving the message!.\n";
         exit;
     }
-
-$result = pg_query($databaseConnection, "DROP TABLE lorem, lorem2, testMessages");
 
     $messagesArray = array();
     while ($row = pg_fetch_row($result)) {
