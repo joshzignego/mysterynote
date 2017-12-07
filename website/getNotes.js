@@ -1,7 +1,6 @@
 window.onload = function() {
     getMessages(document);
 
-    /*
     document.body.onkeydown=function(e){
         var keyCode = (window.event) ? event.keyCode : e.which;
         if(keyCode==13)
@@ -14,7 +13,7 @@ window.onload = function() {
         else if(keyCode == 39) {//right arrow
             getNextNote(document);
         }
-    };*/
+    };
 };
 
 function escapeHtml(text) {
@@ -90,20 +89,11 @@ function drawError() {
 
 // handles the response, adds the html
 function drawOutput(responseText) {
-    //var jsonData = JSON.parse(responseText);
+    var jsonData = JSON.parse(responseText);
+    document.getElementById('noteString').innerHTML = jsonData[4];
 
 
-
-
-
-    document.getElementById('noteString').innerHTML = responseText;
     /*
-
-
-
-
-
-
     var size = jsonData.messages.length;
 
     var a = [size];

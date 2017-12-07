@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17df698f-801b-40a0-9997-708a69387311" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/getNotes.js" afterPath="$PROJECT_DIR$/website/getNotes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/getNotes.php" afterPath="$PROJECT_DIR$/website/getNotes.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,19 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getNotes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getNotes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/getNotes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding>
-                <marker date="1512679275000" expanded="true" signature="650:722" ph="create table... lorem" />
-                <marker date="1512679275000" expanded="true" signature="755:829" ph="CREATE TABLE... IF" />
-                <marker date="1512679275000" expanded="true" signature="949:1011" ph="INSERT INTO testMessages... " />
-                <marker date="1512679275000" expanded="true" signature="1139:1165" ph="SELECT * FRO... testMessages" />
-                <marker date="1512679275000" expanded="true" signature="1479:1519" ph="INSERT INTO lorem2... " />
-                <marker date="1512679275000" expanded="true" signature="1648:1670" ph="SELECT foo F... lorem2" />
-                <marker date="1512679275000" expanded="true" signature="1865:1866" ph="INSERT INTO lorem... " />
+                <marker date="1512679534000" expanded="true" signature="673:747" ph="CREATE TABLE... IF" />
+                <marker date="1512679534000" expanded="true" signature="867:929" ph="INSERT INTO testMessages... " />
+                <marker date="1512679534000" expanded="true" signature="1057:1083" ph="SELECT * FRO... testMessages" />
               </folding>
             </state>
           </provider>
@@ -43,17 +40,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getNotes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getNotes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/getNotes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="98" column="66" lean-forward="false" selection-start-line="98" selection-start-column="66" selection-end-line="98" selection-end-column="66" />
+            <state relative-caret-position="198">
+              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
+                <element signature="e#27#473#0" expanded="false" />
                 <element signature="n#!!block;n#escapeHtml#0" expanded="false" />
                 <element signature="n#!!block;n#getNextNote#0" expanded="false" />
-                <element signature="e#902#1188#0" expanded="false" />
-                <element signature="e#1286#1471#0" expanded="false" />
-                <element signature="e#1477#1724#0" expanded="false" />
+                <element signature="e#893#1179#0" expanded="false" />
+                <element signature="e#1277#1462#0" expanded="false" />
+                <element signature="e#1468#1715#0" expanded="false" />
                 <element signature="n#!!block;n#getPrevNote#0" expanded="false" />
                 <element signature="n#!!block;n#getMessages#0" expanded="false" />
                 <element signature="n#!!block;n#shuffle#0" expanded="false" />
@@ -145,8 +143,8 @@
         <option value="$PROJECT_DIR$/website/note_submitted.html" />
         <option value="$PROJECT_DIR$/website/write_note.html" />
         <option value="$PROJECT_DIR$/website/index.php" />
-        <option value="$PROJECT_DIR$/website/getNotes.js" />
         <option value="$PROJECT_DIR$/website/getNotes.php" />
+        <option value="$PROJECT_DIR$/website/getNotes.js" />
       </list>
     </option>
   </component>
@@ -280,7 +278,7 @@
       <workItem from="1512580942352" duration="10000" />
       <workItem from="1512581455991" duration="3563000" />
       <workItem from="1512600583871" duration="3267000" />
-      <workItem from="1512673660802" duration="5089000" />
+      <workItem from="1512673660802" duration="5383000" />
     </task>
     <servers />
   </component>
@@ -290,7 +288,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148097000" />
+    <option name="totallyTimeSpent" value="148391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1318" height="770" extended-state="0" />
@@ -518,25 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/getNotes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="98" column="66" lean-forward="false" selection-start-line="98" selection-start-column="66" selection-end-line="98" selection-end-column="66" />
-          <folding>
-            <element signature="n#!!block;n#escapeHtml#0" expanded="false" />
-            <element signature="n#!!block;n#getNextNote#0" expanded="false" />
-            <element signature="e#902#1188#0" expanded="false" />
-            <element signature="e#1286#1471#0" expanded="false" />
-            <element signature="e#1477#1724#0" expanded="false" />
-            <element signature="n#!!block;n#getPrevNote#0" expanded="false" />
-            <element signature="n#!!block;n#getMessages#0" expanded="false" />
-            <element signature="n#!!block;n#shuffle#0" expanded="false" />
-            <element signature="n#!!block;n#drawError#0" expanded="false" />
-            <element signature="n#!!block;n#getRequest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -557,16 +536,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/getNotes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding>
-            <marker date="1512679275000" expanded="true" signature="650:722" ph="create table... lorem" />
-            <marker date="1512679275000" expanded="true" signature="755:829" ph="CREATE TABLE... IF" />
-            <marker date="1512679275000" expanded="true" signature="949:1011" ph="INSERT INTO testMessages... " />
-            <marker date="1512679275000" expanded="true" signature="1139:1165" ph="SELECT * FRO... testMessages" />
-            <marker date="1512679275000" expanded="true" signature="1479:1519" ph="INSERT INTO lorem2... " />
-            <marker date="1512679275000" expanded="true" signature="1648:1670" ph="SELECT foo F... lorem2" />
-            <marker date="1512679275000" expanded="true" signature="1865:1866" ph="INSERT INTO lorem... " />
+            <marker date="1512679534000" expanded="true" signature="673:747" ph="CREATE TABLE... IF" />
+            <marker date="1512679534000" expanded="true" signature="867:929" ph="INSERT INTO testMessages... " />
+            <marker date="1512679534000" expanded="true" signature="1057:1083" ph="SELECT * FRO... testMessages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/getNotes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="e#27#473#0" expanded="false" />
+            <element signature="n#!!block;n#escapeHtml#0" expanded="false" />
+            <element signature="n#!!block;n#getNextNote#0" expanded="false" />
+            <element signature="e#893#1179#0" expanded="false" />
+            <element signature="e#1277#1462#0" expanded="false" />
+            <element signature="e#1468#1715#0" expanded="false" />
+            <element signature="n#!!block;n#getPrevNote#0" expanded="false" />
+            <element signature="n#!!block;n#getMessages#0" expanded="false" />
+            <element signature="n#!!block;n#shuffle#0" expanded="false" />
+            <element signature="n#!!block;n#drawError#0" expanded="false" />
+            <element signature="n#!!block;n#getRequest#0" expanded="false" />
           </folding>
         </state>
       </provider>
