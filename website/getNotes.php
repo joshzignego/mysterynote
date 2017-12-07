@@ -20,10 +20,10 @@ $port = "5432";
 
 
 $dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
-$sql = "create table lorem2 (id int not null, foo varchar(15), primary key (id));";
-$r = pg_query($dbconn, $sql);
+//$sql = "create table lorem2 (id int not null, foo varchar(15), primary key (id));";
+//$r = pg_query($dbconn, $sql);
 
-$insert = "INSERT INTO lorem2 VALUES (0, 'Testing Database Insert')";
+$insert = "INSERT INTO lorem2 VALUES (1, 'Testing Database Insert1');";
 $insetion = pg_query($dbconn, $insert);
 
 $tbls = "select * from lorem2";
